@@ -62,8 +62,8 @@ private:
             }
         }
 
-        laberinto[0][1] = 'E';
-        laberinto[alto - 1][ancho - 2] = 'S';
+        laberinto[0][1] = ' ';
+        laberinto[alto - 1][ancho - 2] = ' ';
     }
 
     bool bfsResolver() {
